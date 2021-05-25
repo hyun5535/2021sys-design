@@ -19,7 +19,7 @@ webサーバー -> DBサーバー :　ログイン照会
 DBサーバー -> DBサーバー :　ログイン処理
 DBサーバー -> webサーバー :　認証結果
 
-active ユーザー
+activate ユーザー
 alt 認証成功
 webサーバー -> ユーザー :　ユーザー名を表示
 else 認証失敗
@@ -33,5 +33,5 @@ DBサーバー -> webサーバー :　ログアウト結果
 webサーバー -> ユーザー :　ログアウト結果
 end
 
-deactiveユーザー
+deactive ユーザー
 @enduml
