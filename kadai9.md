@@ -11,7 +11,7 @@ alt登録成功
   webサーバー -> ユーザー : 失敗メッセージ表示
  
  end
-end
+@enduml
  
 @startuml
 ユーザー -> webサーバー :　ログイン
